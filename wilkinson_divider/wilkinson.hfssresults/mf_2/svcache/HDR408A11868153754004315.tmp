@@ -1,0 +1,90 @@
+SimValueCacheVersionID=1
+$begin 'SimValueInfos'
+	NextUniqueID=8
+	MoveBackwards=false
+	$begin 'SimValue'
+		ID=0
+		$begin 'SimValueParams'
+			QuantityName='S(1,1)'
+			ValueState(90, 15, 1, 2)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=1
+		$begin 'SimValueParams'
+			QuantityName='S(2,1)'
+			ValueState(90, 15, 1, 2)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=2
+		$begin 'SimValueParams'
+			QuantityName='S(1,2)'
+			ValueState(90, 15, 1, 2)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=3
+		$begin 'SimValueParams'
+			QuantityName='S(3,2)'
+			ValueState(90, 15, 1, 2)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=4
+		$begin 'SimValueParams'
+			QuantityName='S(3,1)'
+			ValueState(90, 15, 1, 2)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=5
+		$begin 'SimValueParams'
+			QuantityName='S(3,3)'
+			ValueState(90, 15, 1, 2)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=6
+		$begin 'SimValueParams'
+			QuantityName='S(2,2)'
+			ValueState(90, 15, 1, 2)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=7
+		$begin 'SimValueParams'
+			QuantityName='S(2,3)'
+			ValueState(90, 15, 1, 2)
+		$end 'SimValueParams'
+	$end 'SimValue'
+$end 'SimValueInfos'
+$begin 'SimValueCache'
+	$begin 'DesignMap'
+		DesignID=2
+		$begin 'SolutionMap'
+			$begin 'ContextMap'
+				SolutionID=124
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=125
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=149
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=0
+						SimValueContext(3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=631
+						$begin 'MinorVVMap'
+							MajorVariation='c=\'300000000\' d=\'2mm\' er=\'4.3\' fre=\'950000000\' Hcobre=\'0.017mm\' Hsubstrato=\'1.57mm\' lambda=\'17.47cm\' lambda4=\'4.3675cm\' Lfeed=\'4.3675cm\' Lsubstrato=\'100mm\' v=\'144672846.651124\' W50=\'3.06mm\' W70=\'1.66mm\' Wcobre=\'3.06mm\' Wresistor=\'1.25mm\' Wsubstrato=\'50mm\''
+							MinorCacheFile='min7C7C11936153954158033.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+			$end 'ContextMap'
+		$end 'SolutionMap'
+	$end 'DesignMap'
+$end 'SimValueCache'

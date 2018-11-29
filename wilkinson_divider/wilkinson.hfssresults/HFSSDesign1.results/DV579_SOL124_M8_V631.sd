@@ -1,0 +1,85 @@
+$begin 'soln'
+	ObjectType='HfssModal'
+	SolutionType='Adaptive'
+	Name='Adaptive_8'
+	AdaptivePass=8
+	EnergyError=137663.7471680304
+	$begin 'Frequencies'
+		$begin 'DataPoint'
+			Frequency=999999999.9999999
+			$begin 'SMatrix'
+				m=3
+				n=3
+				$begin 'r0'
+					c(-0.04803766219363803, -0.04563600742559343)
+					c(-0.5143083365428269, 0.4347882669867413)
+					c(-0.5131445983937184, 0.4341610425822867)
+				$end 'r0'
+				$begin 'r1'
+					c(-0.514308336538655, 0.4347882669854791)
+					c(0.03739619105571657, -0.06200894257109815)
+					c(-0.07431400660012465, -0.003624721876773709)
+				$end 'r1'
+				$begin 'r2'
+					c(-0.5131445983856534, 0.4341610425752209)
+					c(-0.0743140066023712, -0.003624721875012539)
+					c(0.03761599658693871, -0.0620980552924772)
+				$end 'r2'
+			$end 'SMatrix'
+			$begin 'Gamma'
+				n=3
+				$begin 'r0'
+					c(0.3561509681542029, 36.61228647099711)
+					c(0.3651429843441856, 36.67303249831943)
+					c(0.3579133969519353, 36.64299661142019)
+				$end 'r0'
+			$end 'Gamma'
+			$begin 'Zpi'
+				n=3
+				$begin 'r0'
+					c(47.94876068215968, 0.3868117044230013)
+					c(47.88373906652274, 0.3861542653464304)
+					c(48.40667476124656, 0.3907510013360282)
+				$end 'r0'
+			$end 'Zpi'
+			$begin 'Zpv'
+				n=3
+				$begin 'r0'
+					c(46.15771331548044, 0.3500894047511173)
+					c(45.71253155923838, 0.3375252633952169)
+					c(45.67233071575304, 0.3452475733822453)
+				$end 'r0'
+			$end 'Zpv'
+			$begin 'TerminalPMatrix'
+				m=3
+				n=3
+				$begin 'r0'
+					c(1.999939307338942, 0.01556605018279705)
+					c(0, 0)
+					c(0, 0)
+				$end 'r0'
+				$begin 'r1'
+					c(0, 0)
+					c(1.99994234963763, 0.01516682558816094)
+					c(0, 0)
+				$end 'r1'
+				$begin 'r2'
+					c(0, 0)
+					c(0, 0)
+					c(1.999939645152038, 0.01551973759376351)
+				$end 'r2'
+			$end 'TerminalPMatrix'
+		$end 'DataPoint'
+	$end 'Frequencies'
+	$begin 'Ports'
+		Port(ModalEntryName='1', TerminalEntryName='1', PortName='1', Mode=1, ModeName='', TerminalName='', ParameterName='', MatrixIndex=0)
+		Port(ModalEntryName='2', TerminalEntryName='2', PortName='2', Mode=1, ModeName='', TerminalName='', ParameterName='', MatrixIndex=1)
+		Port(ModalEntryName='3', TerminalEntryName='3', PortName='3', Mode=1, ModeName='', TerminalName='', ParameterName='', MatrixIndex=2)
+	$end 'Ports'
+	HigherOrderMode=false
+	PortNames('1', '2', '3')
+	PortModes(1, 1, 1)
+	ModalData=true
+	LastSolvedFreq=0
+	PreferredImpedance='Zpi'
+$end 'soln'

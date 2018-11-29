@@ -1,0 +1,258 @@
+  0
+SECTION
+  2
+ENTITIES
+  0
+POLYLINE
+  8
+front
+  5
+1
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+  0
+VERTEX
+  8
+front
+  5
+2
+ 10
+82.6736
+ 20
+25.0
+  0
+VERTEX
+  8
+front
+  5
+3
+ 10
+72.6736
+ 20
+25.0
+  0
+SEQEND
+  8
+front
+  5
+4
+  0
+POLYLINE
+  8
+front
+  5
+5
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+  0
+VERTEX
+  8
+front
+  5
+6
+ 10
+82.6736
+ 20
+-25.0
+  0
+VERTEX
+  8
+front
+  5
+7
+ 10
+72.6736
+ 20
+-25.0
+  0
+SEQEND
+  8
+front
+  5
+8
+  0
+POLYLINE
+  8
+front
+  5
+9
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+  0
+VERTEX
+  8
+front
+  5
+A
+ 10
+0.0
+ 20
+-5.0
+  0
+VERTEX
+  8
+front
+  5
+B
+ 10
+0.0
+ 20
+5.0
+  0
+SEQEND
+  8
+front
+  5
+C
+  0
+POLYLINE
+  8
+front
+  5
+D
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+  0
+VERTEX
+  8
+front
+  5
+E
+ 10
+100.0
+ 20
+-25.0
+  0
+VERTEX
+  8
+front
+  5
+F
+ 10
+0.0
+ 20
+-25.0
+  0
+VERTEX
+  8
+front
+  5
+10
+ 10
+0.0
+ 20
+25.0
+  0
+VERTEX
+  8
+front
+  5
+11
+ 10
+100.0
+ 20
+25.0
+  0
+SEQEND
+  8
+front
+  5
+12
+  0
+POLYLINE
+  8
+front
+  5
+13
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+  0
+VERTEX
+  8
+front
+  5
+14
+ 10
+100.0
+ 20
+-25.0
+  0
+VERTEX
+  8
+front
+  5
+15
+ 10
+0.0
+ 20
+-25.0
+  0
+VERTEX
+  8
+front
+  5
+16
+ 10
+0.0
+ 20
+25.0
+  0
+VERTEX
+  8
+front
+  5
+17
+ 10
+100.0
+ 20
+25.0
+  0
+SEQEND
+  8
+front
+  5
+18
+  0
+ENDSEC
+  0
+EOF

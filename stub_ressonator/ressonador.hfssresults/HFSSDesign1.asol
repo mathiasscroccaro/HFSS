@@ -1,0 +1,456 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002018, month=000000000010, day=000000000014, hour=000000000014, min=000000000038, sec=000000000021)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000022670, lin=000000000429, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock22'
+	SimSetupID=65
+	SimSetupName='Setup1'
+	VersionID=173
+	IsImported=false
+	IsTable=false
+	SolveSetupID=0
+	$begin 'CurrMeshes'
+		M(VID=171, Ver=173, Dir='DV171_S65_V173.cmesh/')
+		M(VID=292, Ver=173, Dir='DV292_S65_V173.cmesh/')
+		M(VID=293, Ver=173, Dir='DV293_S65_V173.cmesh/')
+		M(VID=294, Ver=173, Dir='DV294_S65_V173.cmesh/')
+	$end 'CurrMeshes'
+	$begin 'RadFieldSurfMeshes'
+		SM(VID=171, Ver=173, Dir='DV171_S65_V173.sfmesh/')
+		SM(VID=292, Ver=173, Dir='DV292_S65_V173.sfmesh/')
+		SM(VID=293, Ver=173, Dir='DV293_S65_V173.sfmesh/')
+		SM(VID=294, Ver=173, Dir='DV294_S65_V173.sfmesh/')
+	$end 'RadFieldSurfMeshes'
+	$begin 'WaveAdapt'
+		WA(VID=171, Ver=173, A=1)
+		WA(VID=292, Ver=173, A=1)
+		WA(VID=293, Ver=173, A=1)
+		WA(VID=294, Ver=173, A=1)
+	$end 'WaveAdapt'
+	$begin 'LastPassNumbers'
+		LP(VID=171, Ver=173, P=10)
+		LP(VID=292, Ver=173, P=6)
+		LP(VID=293, Ver=173, P=3)
+		LP(VID=294, Ver=173, P=10)
+	$end 'LastPassNumbers'
+	$begin 'Profiles'
+		P(VID=171, Ver=173, File='DV171_S65_V173.profile')
+		P(VID=292, Ver=173, File='DV292_S65_V173.profile')
+		P(VID=293, Ver=173, File='DV293_S65_V173.profile')
+		P(VID=294, Ver=173, File='DV294_S65_V173.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=171, Ver=173, Dir='DV171_S65_MI0_V173.sd/')
+			MI(VID=292, Ver=173, Dir='DV292_S65_MI0_V173.sd/')
+			MI(VID=293, Ver=173, Dir='DV293_S65_MI0_V173.sd/')
+			MI(VID=294, Ver=173, Dir='DV294_S65_MI0_V173.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock22'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=65, Instance=\'SetupDefinition\', Solution=-1, VersionID=173)'='SolutionBlock22'
+	'SolutionKey(SimSetup=65, Instance=\'SolutionDefinition\', Solution=66, VersionID=173)'='SolutionBlock19'
+	'SolutionKey(SimSetup=65, Instance=\'SolutionDefinition\', Solution=67, VersionID=330)'='SolutionBlock28'
+	'SolutionKey(SimSetup=65, Instance=\'SolutionDefinition\', Solution=71, VersionID=173)'='SolutionBlock21'
+	'SolutionKey(SimSetup=65, Instance=\'c=\\\'300000000meter\\\' d=\\\'30mm\\\' diference=\\\'0.1mm\\\' er=\\\'4.3\\\' fre=\\\'950000000\\\' Hcobre=\\\'0.017mm\\\' Hsubstrato=\\\'1.57mm\\\' lambda=\\\'0.152287207001183meter\\\' Lressonador=\\\'0.0380718017502957meter\\\' Lsubstrato=\\\'100mm\\\' v=\\\'144672846.651124meter\\\' Wcobre=\\\'3.06mm\\\' Wsubstrato=\\\'0.0380718017502957meter\\\'\', Solution=-3, VersionID=173)'='SolutionBlock23'
+	'SolutionKey(SimSetup=65, Instance=\'c=\\\'300000000meter\\\' d=\\\'30mm\\\' diference=\\\'0.1mm\\\' er=\\\'4.3\\\' fre=\\\'950000000\\\' Hcobre=\\\'0.017mm\\\' Hsubstrato=\\\'1.57mm\\\' lambda=\\\'0.152287207001183meter\\\' Lressonador=\\\'4.36mm\\\' Lsubstrato=\\\'100mm\\\' v=\\\'144672846.651124meter\\\' Wcobre=\\\'3.06mm\\\' Wsubstrato=\\\'0.0380718017502957meter\\\'\', Solution=-3, VersionID=173)'='SolutionBlock25'
+	'SolutionKey(SimSetup=65, Instance=\'c=\\\'300000000meter\\\' d=\\\'30mm\\\' diference=\\\'0.1mm\\\' er=\\\'4.3\\\' fre=\\\'950000000\\\' Hcobre=\\\'0.017mm\\\' Hsubstrato=\\\'1.57mm\\\' lambda=\\\'0.152287207001183meter\\\' Lressonador=\\\'43.6mm\\\' Lsubstrato=\\\'100mm\\\' v=\\\'144672846.651124meter\\\' Wcobre=\\\'3.06mm\\\' Wsubstrato=\\\'0.0380718017502957meter\\\'\', Solution=-3, VersionID=173)'='SolutionBlock26'
+	'SolutionKey(SimSetup=65, Instance=\'c=\\\'300000000meter\\\' d=\\\'30mm\\\' diference=\\\'0.1mm\\\' er=\\\'4.3\\\' fre=\\\'950000000\\\' Hcobre=\\\'0.017mm\\\' Hsubstrato=\\\'1.57mm\\\' lambda=\\\'0.152287207001183meter\\\' Lressonador=\\\'43.6mm\\\' Lsubstrato=\\\'100mm\\\' v=\\\'144672846.651124meter\\\' Wcobre=\\\'3.06mm\\\' Wsubstrato=\\\'43.6mm\\\'\', Solution=-3, VersionID=173)'='SolutionBlock27'
+$end 'BlockMapName'
+$begin 'SolutionBlock19'
+	SolutionName='AdaptivePass'
+	SolutionID=66
+	V=173
+	$begin 'States'
+		F(VID=171, Ver=173)
+		F(VID=292, Ver=173)
+		F(VID=293, Ver=173)
+		F(VID=294, Ver=173)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(1000000000, 3000000000, 5000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=1
+			M(VID=171, Ver=173, File='DV171_SOL66_M1_V173.sd')
+			M(VID=292, Ver=173, File='DV292_SOL66_M1_V173.sd')
+			M(VID=293, Ver=173, File='DV293_SOL66_M1_V173.sd')
+			M(VID=294, Ver=173, File='DV294_SOL66_M1_V173.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			M(VID=171, Ver=173, File='DV171_SOL66_M2_V173.sd')
+			M(VID=292, Ver=173, File='DV292_SOL66_M2_V173.sd')
+			M(VID=293, Ver=173, File='DV293_SOL66_M2_V173.sd')
+			M(VID=294, Ver=173, File='DV294_SOL66_M2_V173.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			M(VID=171, Ver=173, File='DV171_SOL66_M3_V173.sd')
+			M(VID=292, Ver=173, File='DV292_SOL66_M3_V173.sd')
+			M(VID=293, Ver=173, File='DV293_SOL66_M3_V173.sd')
+			M(VID=294, Ver=173, File='DV294_SOL66_M3_V173.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			M(VID=171, Ver=173, File='DV171_SOL66_M4_V173.sd')
+			M(VID=292, Ver=173, File='DV292_SOL66_M4_V173.sd')
+			M(VID=294, Ver=173, File='DV294_SOL66_M4_V173.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			M(VID=171, Ver=173, File='DV171_SOL66_M5_V173.sd')
+			M(VID=292, Ver=173, File='DV292_SOL66_M5_V173.sd')
+			M(VID=294, Ver=173, File='DV294_SOL66_M5_V173.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			M(VID=171, Ver=173, File='DV171_SOL66_M6_V173.sd')
+			M(VID=292, Ver=173, File='DV292_SOL66_M6_V173.sd')
+			M(VID=294, Ver=173, File='DV294_SOL66_M6_V173.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=7
+			M(VID=171, Ver=173, File='DV171_SOL66_M7_V173.sd')
+			M(VID=294, Ver=173, File='DV294_SOL66_M7_V173.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=8
+			M(VID=171, Ver=173, File='DV171_SOL66_M8_V173.sd')
+			M(VID=294, Ver=173, File='DV294_SOL66_M8_V173.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=9
+			M(VID=171, Ver=173, File='DV171_SOL66_M9_V173.sd')
+			M(VID=294, Ver=173, File='DV294_SOL66_M9_V173.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=10
+			M(VID=171, Ver=173, File='DV171_SOL66_M10_V173.sd')
+			M(VID=294, Ver=173, File='DV294_SOL66_M10_V173.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'A'
+		$begin 'SubData'
+			ID=0
+			A(VID=171, Ver=173, File='DV171_SOL66_A0_V173.sd')
+			A(VID=292, Ver=173, File='DV292_SOL66_A0_V173.sd')
+			A(VID=293, Ver=173, File='DV293_SOL66_A0_V173.sd')
+			A(VID=294, Ver=173, File='DV294_SOL66_A0_V173.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=1
+			A(VID=171, Ver=173, File='DV171_SOL66_A1_V173.sd')
+			A(VID=292, Ver=173, File='DV292_SOL66_A1_V173.sd')
+			A(VID=293, Ver=173, File='DV293_SOL66_A1_V173.sd')
+			A(VID=294, Ver=173, File='DV294_SOL66_A1_V173.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			A(VID=171, Ver=173, File='DV171_SOL66_A2_V173.sd')
+			A(VID=292, Ver=173, File='DV292_SOL66_A2_V173.sd')
+			A(VID=293, Ver=173, File='DV293_SOL66_A2_V173.sd')
+			A(VID=294, Ver=173, File='DV294_SOL66_A2_V173.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=3
+			A(VID=171, Ver=173, File='DV171_SOL66_A3_V173.sd')
+			A(VID=292, Ver=173, File='DV292_SOL66_A3_V173.sd')
+			A(VID=293, Ver=173, File='DV293_SOL66_A3_V173.sd')
+			A(VID=294, Ver=173, File='DV294_SOL66_A3_V173.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=4
+			A(VID=171, Ver=173, File='DV171_SOL66_A4_V173.sd')
+			A(VID=292, Ver=173, File='DV292_SOL66_A4_V173.sd')
+			A(VID=294, Ver=173, File='DV294_SOL66_A4_V173.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=5
+			A(VID=171, Ver=173, File='DV171_SOL66_A5_V173.sd')
+			A(VID=292, Ver=173, File='DV292_SOL66_A5_V173.sd')
+			A(VID=294, Ver=173, File='DV294_SOL66_A5_V173.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=6
+			A(VID=171, Ver=173, File='DV171_SOL66_A6_V173.sd')
+			A(VID=292, Ver=173, File='DV292_SOL66_A6_V173.sd')
+			A(VID=294, Ver=173, File='DV294_SOL66_A6_V173.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=7
+			A(VID=171, Ver=173, File='DV171_SOL66_A7_V173.sd')
+			A(VID=294, Ver=173, File='DV294_SOL66_A7_V173.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=8
+			A(VID=171, Ver=173, File='DV171_SOL66_A8_V173.sd')
+			A(VID=294, Ver=173, File='DV294_SOL66_A8_V173.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=9
+			A(VID=171, Ver=173, File='DV171_SOL66_A9_V173.sd')
+			A(VID=294, Ver=173, File='DV294_SOL66_A9_V173.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=10
+			A(VID=171, Ver=173, File='DV171_SOL66_A10_V173.sd')
+			A(VID=294, Ver=173, File='DV294_SOL66_A10_V173.sd')
+		$end 'SubData'
+	$end 'A'
+$end 'SolutionBlock19'
+$begin 'SolutionBlock28'
+	SolutionName='LastAdaptive'
+	SolutionID=67
+	V=330
+	$begin 'States'
+		F(VID=294, Ver=330)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies(3000000000)
+		SolutionType=6
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=-1
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=294, Ver=330, File='DV294_SOL67_M0_V330.sd')
+		$end 'SubData'
+	$end 'M'
+	$begin 'Fields'
+		IDDblMap(100, 1000000000, 235, 5000000000, 353, 3000000000)
+		$begin 'DataMap'
+			VID=294
+			Ver=330
+			F(DblID=353, Dir='DV294_S67_V330_F353/')
+		$end 'DataMap'
+	$end 'Fields'
+$end 'SolutionBlock28'
+$begin 'SolutionBlock21'
+	SolutionName='Sweep'
+	SolutionID=71
+	V=173
+	$begin 'States'
+		F(VID=171, Ver=173)
+		F(VID=292, Ver=173)
+		F(VID=293, Ver=173)
+		F(VID=294, Ver=173)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=true
+		SweepDefType='LIN'
+		StartFreq=100000000
+		StopFreq=3000000000
+		StepSize=10000000
+		SolutionType=5
+		CenterFreq=0
+	$end 'Definition'
+	IsImported=false
+	IsTable=false
+	IsMatrixDataTable=false
+	SweepID=0
+	KeepAllFastSweepFields=false
+	$begin 'M'
+		$begin 'SubData'
+			ID=0
+			M(VID=171, Ver=173, File='DV171_SOL71_M0_V173.sd')
+			M(VID=292, Ver=173, File='DV292_SOL71_M0_V173.sd')
+			M(VID=293, Ver=173, File='DV293_SOL71_M0_V173.sd')
+			M(VID=294, Ver=173, File='DV294_SOL71_M0_V173.sd')
+		$end 'SubData'
+	$end 'M'
+$end 'SolutionBlock21'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='HFSSDesign1'
+	VersionID=173
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=354
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='c=\'300000000meter\' d=\'30mm\' diference=\'-1mm\' er=\'4.3\' fre=\'950000000\' Hcobre=\'0.017mm\' Hsubstrato=\'1.57mm\' lambda=\'152.287207001183mm\' Lressonador=\'37.0718017502957mm\' Lsubstrato=\'100mm\' v=\'144672846651.124mm\' Wcobre=\'3.2mm\' Wsubstrato=\'38.0718017502957mm\'', ID=131)
+		Map(V='c=\'300000000meter\' d=\'30mm\' diference=\'-2mm\' er=\'4.3\' fre=\'950000000\' Hcobre=\'0.017mm\' Hsubstrato=\'1.57mm\' lambda=\'152.287207001183mm\' Lressonador=\'36.0718017502957mm\' Lsubstrato=\'100mm\' v=\'144672846651.124mm\' Wcobre=\'3.2mm\' Wsubstrato=\'38.0718017502957mm\'', ID=130)
+		Map(V='c=\'300000000meter\' d=\'30mm\' diference=\'-3mm\' er=\'4.3\' fre=\'950000000\' Hcobre=\'0.017mm\' Hsubstrato=\'1.57mm\' lambda=\'152.287207001183mm\' Lressonador=\'35.0718017502957mm\' Lsubstrato=\'100mm\' v=\'144672846651.124mm\' Wcobre=\'3.2mm\' Wsubstrato=\'38.0718017502957mm\'', ID=127)
+		Map(V='c=\'300000000meter\' d=\'30mm\' diference=\'-4mm\' er=\'4.3\' fre=\'950000000\' Hcobre=\'0.017mm\' Hsubstrato=\'1.57mm\' lambda=\'152.287207001183mm\' Lressonador=\'34.0718017502957mm\' Lsubstrato=\'100mm\' v=\'144672846651.124mm\' Wcobre=\'3.2mm\' Wsubstrato=\'38.0718017502957mm\'', ID=126)
+		Map(V='c=\'300000000meter\' d=\'30mm\' diference=\'-5mm\' er=\'4.3\' fre=\'950000000\' Hcobre=\'0.017mm\' Hsubstrato=\'1.57mm\' lambda=\'152.287207001183mm\' Lressonador=\'33.0718017502957mm\' Lsubstrato=\'100mm\' v=\'144672846651.124mm\' Wcobre=\'3.2mm\' Wsubstrato=\'38.0718017502957mm\'', ID=125)
+		Map(V='c=\'300000000meter\' d=\'30mm\' diference=\'0.1mm\' er=\'4.3\' fre=\'950000000\' Hcobre=\'0.017mm\' Hsubstrato=\'1.57mm\' lambda=\'0.152287207001183meter\' Lressonador=\'0.0380718017502957meter\' Lsubstrato=\'100mm\' v=\'144672846.651124meter\' Wcobre=\'3.06mm\' Wsubstrato=\'0.0380718017502957meter\'', ID=171)
+		Map(V='c=\'300000000meter\' d=\'30mm\' diference=\'0.1mm\' er=\'4.3\' fre=\'950000000\' Hcobre=\'0.017mm\' Hsubstrato=\'1.57mm\' lambda=\'0.152287207001183meter\' Lressonador=\'0.0380718017502957meter\' Lsubstrato=\'100mm\' v=\'144672846.651124meter\' Wcobre=\'3.2mm\' Wsubstrato=\'0.0380718017502957meter\'', ID=169)
+		Map(V='c=\'300000000meter\' d=\'30mm\' diference=\'0.1mm\' er=\'4.3\' fre=\'950000000\' Hcobre=\'0.017mm\' Hsubstrato=\'1.57mm\' lambda=\'0.152287207001183meter\' Lressonador=\'4.36mm\' Lsubstrato=\'100mm\' v=\'144672846.651124meter\' Wcobre=\'3.06mm\' Wsubstrato=\'0.0380718017502957meter\'', ID=292)
+		Map(V='c=\'300000000meter\' d=\'30mm\' diference=\'0.1mm\' er=\'4.3\' fre=\'950000000\' Hcobre=\'0.017mm\' Hsubstrato=\'1.57mm\' lambda=\'0.152287207001183meter\' Lressonador=\'43.6mm\' Lsubstrato=\'100mm\' v=\'144672846.651124meter\' Wcobre=\'3.06mm\' Wsubstrato=\'0.0380718017502957meter\'', ID=293)
+		Map(V='c=\'300000000meter\' d=\'30mm\' diference=\'0.1mm\' er=\'4.3\' fre=\'950000000\' Hcobre=\'0.017mm\' Hsubstrato=\'1.57mm\' lambda=\'0.152287207001183meter\' Lressonador=\'43.6mm\' Lsubstrato=\'100mm\' v=\'144672846.651124meter\' Wcobre=\'3.06mm\' Wsubstrato=\'43.6mm\'', ID=294)
+		Map(V='c=\'300000000meter\' d=\'30mm\' diference=\'0.1mm\' er=\'4.3\' fre=\'950000000\' Hcobre=\'0.017mm\' Hsubstrato=\'1.57mm\' lambda=\'152.287207001183mm\' Lressonador=\'38.1718017502957mm\' Lsubstrato=\'100mm\' v=\'144672846651.124mm\' Wcobre=\'3.2mm\' Wsubstrato=\'38.0718017502957mm\'', ID=116)
+		Map(V='c=\'300000000meter\' d=\'30mm\' diference=\'0mm\' er=\'4.3\' fre=\'950000000\' Hcobre=\'0.017mm\' Hsubstrato=\'1.57mm\' lambda=\'152.287207001183mm\' Lressonador=\'38.0718017502957mm\' Lsubstrato=\'100mm\' v=\'144672846651.124mm\' Wcobre=\'3.2mm\' Wsubstrato=\'38.0718017502957mm\'', ID=132)
+		Map(V='c=\'300000000meter\' d=\'30mm\' diference=\'1mm\' er=\'4.3\' fre=\'950000000\' Hcobre=\'0.017mm\' Hsubstrato=\'1.57mm\' lambda=\'152.287207001183mm\' Lressonador=\'39.0718017502957mm\' Lsubstrato=\'100mm\' v=\'144672846651.124mm\' Wcobre=\'3.2mm\' Wsubstrato=\'38.0718017502957mm\'', ID=133)
+		Map(V='c=\'300000000meter\' d=\'30mm\' diference=\'2mm\' er=\'4.3\' fre=\'950000000\' Hcobre=\'0.017mm\' Hsubstrato=\'1.57mm\' lambda=\'152.287207001183mm\' Lressonador=\'40.0718017502957mm\' Lsubstrato=\'100mm\' v=\'144672846651.124mm\' Wcobre=\'3.2mm\' Wsubstrato=\'38.0718017502957mm\'', ID=134)
+		Map(V='c=\'300000000meter\' d=\'30mm\' diference=\'3mm\' er=\'4.3\' fre=\'950000000\' Hcobre=\'0.017mm\' Hsubstrato=\'1.57mm\' lambda=\'152.287207001183mm\' Lressonador=\'41.0718017502957mm\' Lsubstrato=\'100mm\' v=\'144672846651.124mm\' Wcobre=\'3.2mm\' Wsubstrato=\'38.0718017502957mm\'', ID=135)
+		Map(V='c=\'300000000meter\' d=\'30mm\' diference=\'4mm\' er=\'4.3\' fre=\'950000000\' Hcobre=\'0.017mm\' Hsubstrato=\'1.57mm\' lambda=\'152.287207001183mm\' Lressonador=\'42.0718017502957mm\' Lsubstrato=\'100mm\' v=\'144672846651.124mm\' Wcobre=\'3.2mm\' Wsubstrato=\'38.0718017502957mm\'', ID=136)
+		Map(V='c=\'300000000meter\' d=\'30mm\' diference=\'5mm\' er=\'4.3\' fre=\'950000000\' Hcobre=\'0.017mm\' Hsubstrato=\'1.57mm\' lambda=\'152.287207001183mm\' Lressonador=\'43.0718017502957mm\' Lsubstrato=\'100mm\' v=\'144672846651.124mm\' Wcobre=\'3.2mm\' Wsubstrato=\'38.0718017502957mm\'', ID=137)
+		Map(V='c=\'300000000meter\' d=\'30mm\' er=\'4.3\' fre=\'950000000\' Hcobre=\'0.017mm\' Hsubstrato=\'1.57mm\' lambda=\'152.287207001183mm\' Lressonador=\'138.071801750296mm\' Lsubstrato=\'100mm\' v=\'144672846651.124mm\' Wcobre=\'3.2mm\' Wsubstrato=\'38.0718017502957mm\'', ID=114)
+		Map(V='c=\'300000000meter\' d=\'30mm\' er=\'4.3\' fre=\'950000000\' Hcobre=\'0.017mm\' Hsubstrato=\'1.57mm\' lambda=\'152.287207001183mm\' Lressonador=\'38.0718017502957mm\' Lsubstrato=\'100mm\' v=\'144672846651.124mm\' Wcobre=\'3.2mm\' Wsubstrato=\'38.0718017502957mm\'', ID=68)
+		Map(V='c=\'300000000meter\' d=\'30mm\' er=\'4.3\' fre=\'950000000\' Hcobre=\'0.017mm\' Hsubstrato=\'1.57mm\' lambda=\'152.287207001183mm\' Lressonador=\'38.1718017502957mm\' Lsubstrato=\'100mm\' v=\'144672846651.124mm\' Wcobre=\'3.2mm\' Wsubstrato=\'38.0718017502957mm\'', ID=115)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=171, Ver=173, Dir='DV171_V173.imesh/')
+		M(VID=292, Ver=173, Dir='DV292_V173.imesh/')
+		M(VID=293, Ver=173, Dir='DV293_V173.imesh/')
+		M(VID=294, Ver=173, Dir='DV294_V173.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=171, Ver=173, Dir='DV171_MI0_V173.sd/')
+			MI(VID=292, Ver=173, Dir='DV292_MI0_V173.sd/')
+			MI(VID=293, Ver=173, Dir='DV293_MI0_V173.sd/')
+			MI(VID=294, Ver=173, Dir='DV294_MI0_V173.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'SolutionBlock26'
+	ConvSetupName='DrivenDeltaSConvNOV'
+	IsConverged=true
+	MaxPasses='10'
+	MinPasses='1'
+	ConvTarget='0.02'
+	ConvTargetConsecPasses='1'
+	ConvCurrentConsecPasses='1'
+	c(passno=1, numtets=2009)
+	c(passno=2, magdeltas=0.2810727324323271, numtets=2102)
+	c(passno=3, magdeltas=0.01886441420144241, numtets=2189)
+$end 'SolutionBlock26'
+$begin 'SolutionBlock23'
+	ConvSetupName='DrivenDeltaSConvNOV'
+	IsConverged=false
+	MaxPasses='10'
+	MinPasses='1'
+	ConvTarget='0.02'
+	ConvTargetConsecPasses='1'
+	ConvCurrentConsecPasses='0'
+	c(passno=1, numtets=632)
+	c(passno=2, numtets=781, magdeltas=0.3220531119252256)
+	c(passno=3, numtets=973, magdeltas=0.1243549781302)
+	c(passno=4, numtets=1205, magdeltas=0.07722799456038879)
+	c(passno=5, numtets=1508, magdeltas=0.1528832702413694)
+	c(passno=6, numtets=1882, magdeltas=0.02250337330046654)
+	c(passno=7, numtets=2346, magdeltas=0.02418658875700223)
+	c(passno=8, numtets=2936, magdeltas=0.03069501014339905)
+	c(passno=9, numtets=3677, magdeltas=0.7574330803946859)
+	c(passno=10, numtets=4606, magdeltas=0.03182663066150405)
+$end 'SolutionBlock23'
+$begin 'OptimetricsResult1'
+	svi('Hcobre', '0.017mm')
+	svi('Hsubstrato', '1.57mm')
+	svi('Lsubstrato', '100mm')
+	svi('Wcobre', '3.2mm')
+	svi('c', '300000000meter')
+	svi('d', '30mm')
+	vi('diference', '0.1mm', '0.1mm', '0.1mm')
+	svi('er', '4.3')
+	svi('fre', '950000000')
+	gver(0)
+	ev(67, 0)
+	ev(71, 0)
+	var(1.700000000000000e-005, 1.570000000000000e-003, 1.000000000000000e-001, 3.200000000000000e-003, 3.000000000000000e+008, 3.000000000000000e-002, -5.000000000000000e-003, 4.300000000000000e+000, 9.500000000000000e+008)
+	gvs(-5.000000000000000e-003)
+	var(1.700000000000000e-005, 1.570000000000000e-003, 1.000000000000000e-001, 3.200000000000000e-003, 3.000000000000000e+008, 3.000000000000000e-002, -4.000000000000000e-003, 4.300000000000000e+000, 9.500000000000000e+008)
+	gvs(-4.000000000000000e-003)
+	var(1.700000000000000e-005, 1.570000000000000e-003, 1.000000000000000e-001, 3.200000000000000e-003, 3.000000000000000e+008, 3.000000000000000e-002, -3.000000000000000e-003, 4.300000000000000e+000, 9.500000000000000e+008)
+	gvs(-3.000000000000000e-003)
+	var(1.700000000000000e-005, 1.570000000000000e-003, 1.000000000000000e-001, 3.200000000000000e-003, 3.000000000000000e+008, 3.000000000000000e-002, -2.000000000000000e-003, 4.300000000000000e+000, 9.500000000000000e+008)
+	gvs(-2.000000000000000e-003)
+	var(1.700000000000000e-005, 1.570000000000000e-003, 1.000000000000000e-001, 3.200000000000000e-003, 3.000000000000000e+008, 3.000000000000000e-002, -1.000000000000000e-003, 4.300000000000000e+000, 9.500000000000000e+008)
+	gvs(-1.000000000000000e-003)
+	var(1.700000000000000e-005, 1.570000000000000e-003, 1.000000000000000e-001, 3.200000000000000e-003, 3.000000000000000e+008, 3.000000000000000e-002, 0.000000000000000e+000, 4.300000000000000e+000, 9.500000000000000e+008)
+	gvs(0.000000000000000e+000)
+	var(1.700000000000000e-005, 1.570000000000000e-003, 1.000000000000000e-001, 3.200000000000000e-003, 3.000000000000000e+008, 3.000000000000000e-002, 1.000000000000000e-003, 4.300000000000000e+000, 9.500000000000000e+008)
+	gvs(1.000000000000000e-003)
+	var(1.700000000000000e-005, 1.570000000000000e-003, 1.000000000000000e-001, 3.200000000000000e-003, 3.000000000000000e+008, 3.000000000000000e-002, 2.000000000000000e-003, 4.300000000000000e+000, 9.500000000000000e+008)
+	gvs(2.000000000000000e-003)
+	var(1.700000000000000e-005, 1.570000000000000e-003, 1.000000000000000e-001, 3.200000000000000e-003, 3.000000000000000e+008, 3.000000000000000e-002, 3.000000000000000e-003, 4.300000000000000e+000, 9.500000000000000e+008)
+	gvs(3.000000000000000e-003)
+	var(1.700000000000000e-005, 1.570000000000000e-003, 1.000000000000000e-001, 3.200000000000000e-003, 3.000000000000000e+008, 3.000000000000000e-002, 4.000000000000000e-003, 4.300000000000000e+000, 9.500000000000000e+008)
+	gvs(4.000000000000000e-003)
+	var(1.700000000000000e-005, 1.570000000000000e-003, 1.000000000000000e-001, 3.200000000000000e-003, 3.000000000000000e+008, 3.000000000000000e-002, 5.000000000000000e-003, 4.300000000000000e+000, 9.500000000000000e+008)
+	gvs(5.000000000000000e-003)
+$end 'OptimetricsResult1'
+$begin 'SolutionBlock25'
+	ConvSetupName='DrivenDeltaSConvNOV'
+	IsConverged=true
+	MaxPasses='10'
+	MinPasses='1'
+	ConvTarget='0.02'
+	ConvTargetConsecPasses='1'
+	ConvCurrentConsecPasses='1'
+	c(passno=1, numtets=1976)
+	c(passno=2, magdeltas=0.1508630584203278, numtets=2067)
+	c(passno=3, magdeltas=0.06755199672147025, numtets=2160)
+	c(passno=4, magdeltas=0.08003768677520584, numtets=2250)
+	c(passno=5, magdeltas=0.08132848376873685, numtets=2355)
+	c(passno=6, magdeltas=0.01731630295209589, numtets=2460)
+$end 'SolutionBlock25'
+$begin 'SolutionBlock27'
+	ConvSetupName='DrivenDeltaSConvNOV'
+	IsConverged=false
+	MaxPasses='10'
+	MinPasses='1'
+	ConvTarget='0.02'
+	ConvTargetConsecPasses='1'
+	ConvCurrentConsecPasses='0'
+	c(numtets=2092, passno=1)
+	c(numtets=2194, passno=2, magdeltas=0.1959097126202758)
+	c(numtets=2306, passno=3, magdeltas=0.09191990919062094)
+	c(numtets=2410, passno=4, magdeltas=0.03291026147704144)
+	c(numtets=2518, passno=5, magdeltas=0.07533144806966324)
+	c(numtets=2640, passno=6, magdeltas=0.05055224852733286)
+	c(numtets=2758, passno=7, magdeltas=1.380075859536412)
+	c(numtets=2872, passno=8, magdeltas=0.02504280882361131)
+	c(numtets=2991, passno=9, magdeltas=0.0399791162575561)
+	c(numtets=3117, passno=10, magdeltas=0.03186382326133089)
+$end 'SolutionBlock27'
+$begin 'OptimetricsResults'
+	'0:0'='OptimetricsResult1'
+$end 'OptimetricsResults'
+$begin '$index$'
+	$begin '$index$'
+		OptimetricsResults(pos=22588, lin=426, lvl=0)
+		BlockMapName(pos=1878, lin=48, lvl=0)
+		SolutionBlock19(pos=4074, lin=59, lvl=0)
+		SolutionBlock28(pos=8867, lin=210, lvl=0)
+		SolutionBlock21(pos=9564, lin=243, lvl=0)
+		SolutionBlock22(pos=370, lin=1, lvl=0)
+		SolutionBlock1(pos=10343, lin=277, lvl=0)
+		SolutionBlock26(pos=17117, lin=325, lvl=0)
+		SolutionBlock23(pos=17469, lin=337, lvl=0)
+		OptimetricsResult1(pos=18220, lin=356, lvl=0)
+		SolutionBlock25(pos=21305, lin=392, lvl=0)
+		SolutionBlock27(pos=21831, lin=407, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=22670, lin=429, lvl=0)
+	$end '$index$'
+$end '$index$'

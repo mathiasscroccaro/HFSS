@@ -1,0 +1,80 @@
+SimValueCacheVersionID=1
+$begin 'SimValueInfos'
+	NextUniqueID=3
+	MoveBackwards=false
+	$begin 'SimValue'
+		ID=0
+		$begin 'SimValueParams'
+			QuantityName='S(1,1)'
+			ValueState(90, 15, 1, 2)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=1
+		$begin 'SimValueParams'
+			QuantityName='S(2,1)'
+			ValueState(90, 15, 1, 2)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=2
+		$begin 'SimValueParams'
+			QuantityName='S(2,2)'
+			ValueState(90, 15, 1, 2)
+		$end 'SimValueParams'
+	$end 'SimValue'
+$end 'SimValueInfos'
+$begin 'SimValueCache'
+	$begin 'DesignMap'
+		DesignID=0
+		$begin 'SolutionMap'
+			$begin 'ContextMap'
+				SolutionID=66
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=67
+			$end 'ContextMap'
+			$begin 'ContextMap'
+				SolutionID=71
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=0
+						SimValueContext(3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=173
+						$begin 'MinorVVMap'
+							MajorVariation='c=\'300000000meter\' d=\'30mm\' diference=\'0.1mm\' er=\'4.3\' fre=\'950000000\' Hcobre=\'0.017mm\' Hsubstrato=\'1.57mm\' lambda=\'0.152287207001183meter\' Lressonador=\'43.6mm\' Lsubstrato=\'100mm\' v=\'144672846.651124meter\' Wcobre=\'3.06mm\' Wsubstrato=\'43.6mm\''
+							MinorCacheFile='min45221193615395372414.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='c=\'300000000meter\' d=\'30mm\' diference=\'0.1mm\' er=\'4.3\' fre=\'950000000\' Hcobre=\'0.017mm\' Hsubstrato=\'1.57mm\' lambda=\'0.152287207001183meter\' Lressonador=\'43.6mm\' Lsubstrato=\'100mm\' v=\'144672846.651124meter\' Wcobre=\'3.06mm\' Wsubstrato=\'0.0380718017502957meter\''
+							MinorCacheFile='min57C211936153953870113.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='c=\'300000000meter\' d=\'30mm\' diference=\'0.1mm\' er=\'4.3\' fre=\'950000000\' Hcobre=\'0.017mm\' Hsubstrato=\'1.57mm\' lambda=\'0.152287207001183meter\' Lressonador=\'4.36mm\' Lsubstrato=\'100mm\' v=\'144672846.651124meter\' Wcobre=\'3.06mm\' Wsubstrato=\'0.0380718017502957meter\''
+							MinorCacheFile='min57C211936153953870114.tmp'
+						$end 'MinorVVMap'
+						$begin 'MinorVVMap'
+							MajorVariation='c=\'300000000meter\' d=\'30mm\' diference=\'0.1mm\' er=\'4.3\' fre=\'950000000\' Hcobre=\'0.017mm\' Hsubstrato=\'1.57mm\' lambda=\'0.152287207001183meter\' Lressonador=\'0.0380718017502957meter\' Lsubstrato=\'100mm\' v=\'144672846.651124meter\' Wcobre=\'3.06mm\' Wsubstrato=\'0.0380718017502957meter\''
+							MinorCacheFile='min57C211936153953870115.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=0
+						SimValueContext(0, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=173
+						$begin 'MinorVVMap'
+							MajorVariation='c=\'300000000meter\' d=\'30mm\' diference=\'0.1mm\' er=\'4.3\' fre=\'950000000\' Hcobre=\'0.017mm\' Hsubstrato=\'1.57mm\' lambda=\'0.152287207001183meter\' Lressonador=\'43.6mm\' Lsubstrato=\'100mm\' v=\'144672846.651124meter\' Wcobre=\'3.06mm\' Wsubstrato=\'43.6mm\''
+							MinorCacheFile='min45221193615395372415.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+			$end 'ContextMap'
+		$end 'SolutionMap'
+	$end 'DesignMap'
+$end 'SimValueCache'

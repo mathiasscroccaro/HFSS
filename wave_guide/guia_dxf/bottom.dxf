@@ -1,0 +1,70 @@
+  0
+SECTION
+  2
+ENTITIES
+  0
+POLYLINE
+  8
+bottom
+  5
+1
+ 66
+1
+ 10
+0.0
+ 20
+0.0
+ 30
+0.0
+ 70
+1
+  0
+VERTEX
+  8
+bottom
+  5
+2
+ 10
+100.0
+ 20
+-15.0
+  0
+VERTEX
+  8
+bottom
+  5
+3
+ 10
+0.0
+ 20
+-15.0
+  0
+VERTEX
+  8
+bottom
+  5
+4
+ 10
+0.0
+ 20
+15.0
+  0
+VERTEX
+  8
+bottom
+  5
+5
+ 10
+100.0
+ 20
+15.0
+  0
+SEQEND
+  8
+bottom
+  5
+6
+  0
+ENDSEC
+  0
+EOF

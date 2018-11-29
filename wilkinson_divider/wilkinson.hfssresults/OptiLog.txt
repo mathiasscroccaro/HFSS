@@ -1,0 +1,119 @@
+
+=== constructing optimizer ===
+
+UseBestinList	Init:Feasible&Solved	input	0.00306	0.0016	output	802.9728293586911
+--- Begin Model Info ---
+# inp variables = 2
+# out variables = 1
+Lower Bounds(inp) follow
+DoubleArr: dim = 2
+array[0] = 0.00153
+array[1] = 0.0008
+Upper Bounds(inp) follow
+DoubleArr: dim = 2
+array[0] = 0.00459
+array[1] = 0.0024
+--- Begin ConstraintArr Info ---
+Array dim = 4
+Begin Linear Constraint
+RHS = -0.00153
+Coef vector follows: DoubleArr: dim = 2
+array[0] = -1
+array[1] = 0
+End Linear Constraint
+Begin Linear Constraint
+RHS = 0.00459
+Coef vector follows: DoubleArr: dim = 2
+array[0] = 1
+array[1] = 0
+End Linear Constraint
+Begin Linear Constraint
+RHS = -0.0008
+Coef vector follows: DoubleArr: dim = 2
+array[0] = 0
+array[1] = -1
+End Linear Constraint
+Begin Linear Constraint
+RHS = 0.0024
+Coef vector follows: DoubleArr: dim = 2
+array[0] = 0
+array[1] = 1
+End Linear Constraint
+--- End ConstraintArr Info ---
+Min steps follow
+DoubleArr: dim = 2
+array[0] = 3.06e-005
+array[1] = 1.6e-005
+Max steps follow
+DoubleArr: dim = 2
+array[0] = 0.000306
+array[1] = 0.00016
+X-scales follow
+DoubleArr: dim = 2
+array[0] = 3267.97385620915
+array[1] = 6249.999999999999
+Max scaled bondary violations follow
+DoubleArr: dim = 4
+array[0] = 0
+array[1] = 0
+array[2] = 0
+array[3] = 0
+--- End Model Info ---
+
+--- Begin Generic Optimizer Info ---
+Cost limit = 0
+Iter limit = 10
+Act iter # = 0
+InitInstance Instance pointed to follows
+One instance
+InpVal follows
+DoubleArr: dim = 2
+array[0] = 0.00306
+array[1] = 0.0016
+Location status: inside domain
+OutVal follows
+DoubleArr: dim = 1
+array[0] = 802.9728293586911
+
+BestInstance Instance pointed to follows
+One instance
+InpVal follows
+DoubleArr: dim = 2
+array[0] = 0.00306
+array[1] = 0.0016
+Location status: inside domain
+OutVal follows
+DoubleArr: dim = 1
+array[0] = 802.9728293586911
+
+--- End Generic Optimizer Info ---
+
+--- Begin OptiPattern1 Specific Information ---
+Grid is DYNAMIC.
+--- Begin Grid1Arr Data ---
+dim = 2
+Grid1: x0 = 0, delta0 = 0.000306
+Grid1: x0 = 0, delta0 = 0.00016
+--- End Grid1Arr Data ---
+--- End OptiPattern1 Specific Information ---
+UseInitInst	initUpdate	input	0.00306	0.0016	output	802.9728293586911
+Simplex	startBase	input	0.00306	0.0016	output	802.9728293586911
+Simplex	Add	input	0.003366	0.0016	output	986.6503123778474
+Simplex	Add	input	0.00306	0.00176	output	540.5015838557025
+Simplex	endBase	input	0.00306	0.00176	output	540.5015838557025
+trial	solve	input	0.002754	0.00192	output	802.4880756835304
+trial	GE	input	0.00306	0.00176	output	540.5015838557025
+Simplex	startBase	input	0.00306	0.00176	output	540.5015838557025
+Simplex	Add	input	0.00306	0.00184	output	387.7493451780339
+Simplex	Add	input	0.002907	0.00176	output	433.7080828245739
+Simplex	endBase	input	0.00306	0.00184	output	387.7493451780339
+trial	solve	input	0.002907	0.00192	output	667.5809650531677
+trial	GE	input	0.00306	0.00184	output	387.7493451780339
+Simplex	startBase	input	0.00306	0.00184	output	387.7493451780339
+Simplex	Add	input	0.00306	0.00188	output	576.8900501583231
+Simplex	Add	input	0.0029835	0.00184	output	570.1432128792699
+Simplex	endBase	input	0.00306	0.00184	output	387.7493451780339
+trial	solve	input	0.0031365	0.0018	output	578.5937563930131
+trial	GE	input	0.00306	0.00184	output	387.7493451780339
+Simplex	startBase	input	0.00306	0.00184	output	387.7493451780339
+Simplex	Add	input	0.00306	0.00182	output	473.5732084426031
